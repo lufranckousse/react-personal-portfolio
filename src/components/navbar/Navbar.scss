@@ -1,0 +1,28 @@
+.navbar {
+  width: 100vw;
+  height: 15vh;
+  background: rgb(106, 104, 104);
+  background-image: url('../../assets/images/banner.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  min-height: 50px;
+
+  div {
+    display: flex;
+    align-items: center;
+    h2 {
+      color: white;
+      margin: auto;
+      padding: 20px;
+      letter-spacing: 0.1em
+    }
+  }
+
+  a {
+    color: white;
+    padding: 0.5em;
+    text-decoration: none;
+    margin-right: 1em;
+  }
+}

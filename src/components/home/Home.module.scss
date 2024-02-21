@@ -1,0 +1,29 @@
+.body {
+  width: 100vw;
+  min-height: 70vh;
+  background: rgb(120 20 56);
+  display: flex;
+  justify-content: flex-start;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    h1 {
+      color: white;
+      // margin: 200px;
+      padding: 20px;
+    }
+    h2 {
+      padding: 10px;
+      color: white;
+      letter-spacing: 0em
+    }
+    p {
+      color: white;
+      padding: 20px;
+    }
+  }
+}

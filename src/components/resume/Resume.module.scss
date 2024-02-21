@@ -1,0 +1,37 @@
+.list {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  div {
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.body {
+  width: 100vw;
+  min-height: 70vh;
+  background: rgb(120 20 56);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.title {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+
+  h1 {
+    color: white;
+    margin: 0;
+    padding: 20px;
+  }
+  a{
+    color: white;
+  }
+}
